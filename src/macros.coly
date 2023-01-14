@@ -1,0 +1,96 @@
+macro body {
+    "body" tag
+}
+
+macro cBody {
+    "body" cTag
+}
+
+macro head {
+    "head" tag
+}
+
+macro cHead {
+    "head" cTag
+}
+
+macro tp { // Typewriter paragraph
+    "p class='text anim-typewriter'" tag
+    pushHTML
+    "p" cTag
+}
+
+macro p {
+    "p class='text'" tag
+    pushHTML
+    "p" cTag
+}
+
+macro b {
+    "b class='text'" tag
+    pushHTML
+    "b" cTag
+}
+
+macro tb { // Typewriter bold
+    "b class='text line-1 anim-typewriter'" tag
+    pushHTML
+    "b" cTag
+}
+
+
+macro h {
+    "h1 class='text'" tag
+    pushHTML
+    "h1" cTag
+}
+
+macro br {
+    "br" tag
+}
+
+macro centerDiv {
+    "div class='center'" tag
+}
+
+macro cCenterDiv {
+    "div" cTag
+}
+
+macro header {
+    "header" tag
+}
+
+macro cHeader {
+    "header" cTag
+}
+
+macro footer {
+    "footer" tag
+}
+
+macro cFooter {
+    "footer" cTag
+}
+
+macro button {
+    "button class='button1'" tag
+    pushHTML
+    "button" cTag
+}
+
+macro title {
+    "title" wTag
+}
+
+macro img {
+    "<img src='" 
+    swap "'>\n" concat concat
+    HTMLOutputFile fAppend
+}
+
+macro icoimg {
+    "<img src='" 
+    swap "'style='width:90px;height:90px;'>\n" concat concat
+    HTMLOutputFile fAppend
+}

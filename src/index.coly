@@ -1,0 +1,30 @@
+macro HTMLOutputFile { "../output/index.html" }
+include "htmlgen.coly"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+
+head
+    "../css/style.css" linkCSS
+    "Aaron" title
+cHead
+
+body
+    centerDiv
+        header
+            "Aaron Struikenkamp" h
+        cHeader
+        br "ACE 20/01/2023 (use Chrome or Edge)" tb
+        br "a href='test.html'" tag
+            "Start here ➡️" button
+        'a' cTag
+    cCenterDiv
+    br
+    footer
+        "The code for this website ->" p
+        "a href='https://github.com/AaronMarcusDev/ACE-2023'" tag
+            "../images/github.png" icoimg
+        'a' cTag
+    cFooter
+cBody
