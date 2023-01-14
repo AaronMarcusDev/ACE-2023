@@ -94,3 +94,9 @@ macro icoimg {
     swap "'style='width:90px;height:90px;'>\n" concat concat
     HTMLOutputFile fAppend
 }
+
+macro redirect {
+    "<meta http-equiv='refresh' content='0; url=" 
+    swap "'>\n" concat concat
+    HTMLOutputFile fAppend
+}
