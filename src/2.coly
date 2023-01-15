@@ -1,0 +1,42 @@
+macro HTMLOutputFile { "../output/2.html" }
+include "htmlgen.coly"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+
+head
+    "Aaron" title
+    "../css/style.css" linkCSS 
+cHead
+
+body
+    centerDiv
+        navbar
+            "a href='1.html'" tag
+                "<- previous" b
+            'a' cTag
+
+
+            "|" b
+
+            "a href='index.html'" tag
+                "Back to start" b
+            'a' cTag
+
+            "|" b
+            
+            "a href='2.html'" tag
+                "next ->" b
+            'a' cTag
+        cNavbar
+        br
+
+        // "Personality in the project" tb br
+        // "I made a website for this project" tp
+        // "because my biggest hobby is programming." tp
+        // "In fact, this website was made in my own" tp
+        // "programming language, called Coly." tp br
+        // "../images/coding.jpeg" img
+    cCenterDiv
+cBody

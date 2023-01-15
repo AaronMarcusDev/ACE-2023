@@ -16,8 +16,9 @@ body
             "Aaron Struikenkamp" h
         cHeader
         br "ACE 20/01/2023 (use Chrome or Edge)" tb
-        br "a href='test.html'" tag
-            "Start here ➡️" button
+        br"Welcome to my website :)" tb
+        br "a href='1.html'" tag
+            "Start here ->" button
         'a' cTag
     cCenterDiv
     br

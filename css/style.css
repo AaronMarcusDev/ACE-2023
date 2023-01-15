@@ -19,8 +19,25 @@ header {
   border-bottom: 1px solid #ffffff;
 }
 
+.img {
+  border: 2px solid white;
+}
+
+.navbar {
+  border-bottom: 1px solid #ffffff;
+}
+
+.navbar:hover {
+  border-color: green;
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: transparent;
+}
+
+/* Large */
 button {
-  background-color: #ffffff;
+  background-color: white;
   border: 0;
   border-radius: 0.5rem;
   box-sizing: border-box;
@@ -40,11 +57,11 @@ button {
   touch-action: manipulation;
 }
 
-.button-38:hover {
-  background-color: rgb(249, 250, 251);
+button:hover {
+  background-color: green;
 }
 
-.button-38:focus {
+button:focus {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
@@ -96,7 +113,7 @@ footer {
   }
 
   to {
-    width: 19em;
+    width: 22em;
   }
 }
 

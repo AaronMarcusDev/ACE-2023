@@ -15,7 +15,7 @@ macro cHead {
 }
 
 macro tp { // Typewriter paragraph
-    "p class='text anim-typewriter'" tag
+    "p class='text line-1 anim-typewriter'" tag
     pushHTML
     "p" cTag
 }
@@ -84,8 +84,8 @@ macro title {
 }
 
 macro img {
-    "<img src='" 
-    swap "'>\n" concat concat
+    "<img class='img' src='" 
+    swap "'style='width:170px;height:140px;'>\n" concat concat
     HTMLOutputFile fAppend
 }
 
@@ -95,8 +95,14 @@ macro icoimg {
     HTMLOutputFile fAppend
 }
 
-macro redirect {
-    "<meta http-equiv='refresh' content='0; url=" 
-    swap "'>\n" concat concat
-    HTMLOutputFile fAppend
+macro navbar {
+    "header class='navbar'" tag
+}
+
+macro cNavbar {
+    "header" cTag
+}
+
+macro nbsp {
+    "&nbsp;" pushHTML
 }
