@@ -4,6 +4,7 @@ include "macros.coly"
 
 initHTML
 "<!DOCTYPE html>" pushHTML
+"html" tag
 
 head
     "Aaron" title
@@ -40,3 +41,5 @@ body
         // "../images/coding.jpeg" img
     cCenterDiv
 cBody
+
+"html" cTag
