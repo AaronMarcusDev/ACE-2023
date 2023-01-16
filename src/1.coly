@@ -14,13 +14,13 @@ body
     centerDiv
         navbar
             "a href='index.html'" tag
-            "Back to start" b
+                "Back to start" b
             'a' cTag
 
             "|" b
             
             "a href='2.html'" tag
-            "next ->" b
+                "next ->" b
             'a' cTag
         cNavbar
         br

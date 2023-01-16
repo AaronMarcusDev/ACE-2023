@@ -18,7 +18,6 @@ body
                 "<- previous" b
             'a' cTag
 
-
             "|" b
 
             "a href='index.html'" tag
@@ -27,18 +26,29 @@ body
 
             "|" b
             
-            "a href='2.html'" tag
+            "a href='3.html'" tag
                 "next ->" b
             'a' cTag
         cNavbar
         br
 
-        // "Personality in the project" tb br
-        // "I made a website for this project" tp
-        // "because my biggest hobby is programming." tp
-        // "In fact, this website was made in my own" tp
-        // "programming language, called Coly." tp br
-        // "../images/coding.jpeg" img
+        "Martial arts" tb br
+        "I have been practicing Jiu Jitsu for 6" tp
+        "years and Wado-Ryu Karate for 2 years." tp
+        "They are Japanese martial arts and I" tp
+        "have experienced parts of the Japanese" tp
+        "culture through these sports. I have met" tp
+        "lot's of amazing people from all over" tp
+        "the world on tournaments and events" tp
+        "(Brazil, Japan, USA, Portugal, etc.)." tp
+        "I don't plan to stop practicing them" tp
+        "any time soon, I might even join more" tp
+        "tournaments." tp
+
+        br
+
+        "../images/jiujitsu.png" img
+        "Me and my Jiu Jitsu theacher Patrick " tp
     cCenterDiv
 cBody
 

@@ -1,0 +1,46 @@
+macro HTMLOutputFile { "../output/3.html" }
+include "htmlgen.coly"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+"html" tag
+
+head
+    "Aaron" title
+    "../css/style.css" linkCSS 
+cHead
+
+body
+    centerDiv
+        navbar
+            "a href='2.html'" tag
+                "<- previous" b
+            'a' cTag
+
+            "|" b
+
+            "a href='index.html'" tag
+                "Back to start" b
+            'a' cTag
+
+            "|" b
+            
+            "a href='3.html'" tag
+                "next ->" b
+            'a' cTag
+        cNavbar
+        br
+
+        "England trip TTO VWO 3" tb br
+        "The trip to England with year 3" tp
+        "was one of the most fun and educational" tp
+        "experiences I have had. I have gotten" tp
+        "to try the English dishes, spoken to" tp
+        "English people, been to English theatres and" tp
+        " much more." tp
+        br "../images/jiujitsu.png" img
+    cCenterDiv
+cBody
+
+"html" cTag
