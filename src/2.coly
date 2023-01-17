@@ -45,10 +45,8 @@ body
         "any time soon, I might even join more" tp
         "tournaments." tp
 
-        br
-
-        "../images/jiujitsu.png" img
-        "Me and my Jiu Jitsu theacher Patrick " tp
+        br "../images/karate.jpeg" img br
+        "Me recieving my first Karate belt." tp
     cCenterDiv
 cBody
 

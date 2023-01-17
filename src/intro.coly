@@ -1,0 +1,40 @@
+macro HTMLOutputFile { "../output/intro.html" }
+include "htmlgen.coly"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+
+head
+    "Aaron" title
+    "../css/style.css" linkCSS 
+cHead
+
+body
+    centerDiv
+        navbar
+
+            "a href='index.html'" tag
+                "Back to start" b
+            'a' cTag
+
+            "|" b
+            
+            "a href='1.html'" tag
+                "next ->" b
+            'a' cTag
+        cNavbar
+        br
+
+        "Introduction" tb br
+        "Hi i'm Aaron Marcus Struikenkamp." tp
+        "I coded a website for this project." tp
+        "It types all the lines by itself" tp
+        "in one big blinker, to save you" tp
+        "reading-time. You can use the" tp
+        "buttons at the top of the page" tp
+        "to navigate through the pages." tp
+        "Enjoy!" tp br
+        "../images/me-pfp.png" img
+    cCenterDiv
+cBody

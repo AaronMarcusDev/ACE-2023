@@ -38,8 +38,11 @@ body
         "experiences I have had. I have gotten" tp
         "to try the English dishes, spoken to" tp
         "English people, been to English theatres and" tp
-        " much more." tp
-        br "../images/jiujitsu.png" img
+        " much more. I found the English culture" tp
+        "resembled the Dutch culture a lot, but" tp
+        "there were some differences. The English" tp
+        "people were very friendly and helpful." tp
+        br "../images/karate.jpeg" img
     cCenterDiv
 cBody
 
