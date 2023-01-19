@@ -6,4 +6,5 @@ coly run intro.coly
 coly run 1.coly
 coly run 2.coly
 coly run 3.coly
+coly run 4.coly
 cd ..
