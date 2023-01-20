@@ -1,0 +1,42 @@
+macro HTMLOutputFile { "../output/end.html" }
+use "htmlgen"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+"html" tag
+
+head
+    "Aaron" title
+    "../css/style.css" linkCSS 
+cHead
+
+body
+    centerDiv
+        navbar
+            "a href='wishlist.html'" tag
+                "<- previous" b
+            'a' cTag
+
+            "|" b
+
+            "a href='index.html'" tag
+                "Back to start" b
+            'a' cTag
+        cNavbar
+        br
+
+        "The end 😮" tb br
+        "This is the end of my project." tp
+        "I have summed up my favourite" tp
+        "cultural experiences. This project" tp
+        "took longer to make then expected," tp
+        "but I like the final result. Hopefully" tp
+        "You like it as much as I do." tp
+        
+        br "../images/karate.jpeg" img
+        // Some image ur sumtin
+    cCenterDiv
+cBody
+
+"html" cTag

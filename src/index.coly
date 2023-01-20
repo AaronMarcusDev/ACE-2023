@@ -1,5 +1,5 @@
 macro HTMLOutputFile { "../output/index.html" }
-include "htmlgen.coly"
+use "htmlgen"
 include "macros.coly"
 
 initHTML

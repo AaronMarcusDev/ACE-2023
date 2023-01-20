@@ -43,6 +43,7 @@ body
         "lot, but there were some differences. " tp
         "The English people were very friendly " tp
         "and helpful." tp
+        
         br "../images/karate.jpeg" img
     cCenterDiv
 cBody

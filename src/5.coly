@@ -1,0 +1,58 @@
+macro HTMLOutputFile { "../output/5.html" }
+use "htmlgen"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+"html" tag
+
+head
+    "Aaron" title
+    "../css/style.css" linkCSS 
+cHead
+
+body
+    centerDiv
+        navbar
+            "a href='4.html'" tag
+                "<- previous" b
+            'a' cTag
+
+            "|" b
+
+            "a href='index.html'" tag
+                "Back to start" b
+            'a' cTag
+
+            "|" b
+            
+            "a href='end.html'" tag
+                "next ->" b
+            'a' cTag
+        cNavbar
+        br
+
+        "Holiday in Denmark" tb br
+        "In the previous summer break, I went" tp
+        "to Denmark with my Parents and my" tp
+        "little sister. We were staying in a" tp
+        "camping on the island 'island'. We" tp
+        "have visited lots of beautiful" tp
+        "environments, one that will remember" tp
+        "Is the 'forest' forest. We have also" tp
+        "visited Copenhaven (Kobenhavn) and" tp
+        "What I noticed was how many different" tp
+        "cultures can be found on this city." tp
+        "Poeple from all kinds of different" tp
+        "backgrounds were running stores in" tp
+        "the streets of Kobenhavn, it was" tp
+        "really fun to see all of these cultures" tp
+        "living together in one big city." tp
+        "Everyone in Denmark also spoke perfect" tp
+        "English! Great holiday destination." tp 
+        
+        br "../images/karate.jpeg" img
+    cCenterDiv
+cBody
+
+"html" cTag

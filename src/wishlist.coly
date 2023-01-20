@@ -1,0 +1,53 @@
+macro HTMLOutputFile { "../output/wishlist.html" }
+use "htmlgen"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+"html" tag
+
+head
+    "Aaron" title
+    "../css/style.css" linkCSS 
+cHead
+
+body
+    centerDiv
+        navbar
+            "a href='5.html'" tag
+                "<- previous" b
+            'a' cTag
+
+            "|" b
+
+            "a href='index.html'" tag
+                "Back to start" b
+            'a' cTag
+
+            "|" b
+            
+            "a href='end.html'" tag
+                "end ->" b
+            'a' cTag
+        cNavbar
+        br
+
+        "Wishlist for ACE" tb br
+
+        "My whishlist is actually quite short." tp
+        "I really just want to experience" tp
+        "more kinds of music from different" tp
+        "cultures. I also want to know more" tp
+        "about the Dutch music history." tp
+        "I know older bands like DoeMaar, " tp
+        "Het Goede Doel and others, but I" tp
+        "would like to know other bands and" tp
+        "music that has had influence on the" tp
+        "Netherlands or the rest of the world." tp
+        
+        br "../images/karate.jpeg" img
+        br "Doe Maar live in Amsterdam."
+    cCenterDiv
+cBody
+
+"html" cTag

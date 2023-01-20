@@ -42,6 +42,7 @@ body
         "to create our final product. It was" tp
         "a fun and educational experience" tp
         "I will not forget." tp
+        
         br "../images/karate.jpeg" img
     cCenterDiv
 cBody
