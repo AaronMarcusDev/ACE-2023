@@ -43,7 +43,10 @@ body
         "a fun and educational experience" tp
         "I will not forget." tp
         
-        br "../images/karate.jpeg" img
+        br "../images/lizdeika.jpg" img
+
+        br "Lizdeika Gymnasia, the school we did" tp
+        "the exchange with." tp
     cCenterDiv
 cBody
 

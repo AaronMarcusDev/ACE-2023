@@ -33,9 +33,6 @@ body
         "took longer to make then expected," tp
         "but I like the final result. Hopefully" tp
         "You like it as much as I do." tp
-        
-        br "../images/karate.jpeg" img
-        // Some image ur sumtin
     cCenterDiv
 cBody
 

@@ -44,7 +44,8 @@ body
         "The English people were very friendly " tp
         "and helpful." tp
         
-        br "../images/karate.jpeg" img
+        br "../images/Leicester.jpeg" img
+        br "Leicester Square" tp
     cCenterDiv
 cBody
 

@@ -25,17 +25,23 @@ body
 
             "|" b
             
-            "a href='2.html'" tag
+            "a href='dev.html'" tag
                 "next ->" b
             'a' cTag
         cNavbar
         br
 
-        "Personality in the project" tb br
+        "Why a website?" tb br
         "I made a website for this project" tp
         "because my biggest hobby is programming." tp
         "In fact, this website was made in my own" tp
         "programming language, called Coly." tp br
+        "This was a good opportunity to try out" tp
+        "my programming language in a real world" tp
+        "situation, and I think it worked out" tp
+        "pretty well." tp br
         "../images/coding.jpeg" img
+        br "This is a picture of a point in the" tp
+        "process of making the website." tp
     cCenterDiv
 cBody

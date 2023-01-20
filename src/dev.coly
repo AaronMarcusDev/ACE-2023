@@ -1,0 +1,57 @@
+macro HTMLOutputFile { "../output/dev.html" }
+use "htmlgen"
+include "macros.coly"
+
+initHTML
+"<!DOCTYPE html>" pushHTML
+"html" tag
+
+head
+    "Aaron" title
+    "../css/style.css" linkCSS 
+cHead
+
+body
+    centerDiv
+        navbar
+            "a href='1.html'" tag
+                "<- previous" b
+            'a' cTag
+
+            "|" b
+
+            "a href='index.html'" tag
+                "Back to start" b
+            'a' cTag
+
+            "|" b
+            
+            "a href='2.html'" tag
+                "next ->" b
+            'a' cTag
+        cNavbar
+        br
+
+        "Software Development" tb br
+
+        "This brings me to the next item." tp
+        "I work as a software developer for." tp
+        "Yibblo B.V. It has allowed me to gain" tp
+        "a lot of experience in technology usage" tp
+        "and programming/software development." tp
+        "It has also given me chances to speak to" tp
+        "members of big coorperations in India" tp
+        "and the U.S.A. Talking to them was pretty" tp
+        "thrilling, but I managed to do it" tp
+        "without problems, partially due to TTO." tp
+    // Image
+        br "../images/yibblo.jpg" 
+        "<img class='img' src='" 
+        swap "'style='width:190px;height:100px;'>\n" concat concat
+        pushHTML
+        br
+        "This is the company logo" tp
+    cCenterDiv
+cBody
+
+"html" cTag

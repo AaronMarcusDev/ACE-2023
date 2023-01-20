@@ -10,4 +10,5 @@ coly run 4.coly
 coly run 5.coly
 coly run wishlist.coly
 coly run end.coly
+coly run dev.coly
 cd ..

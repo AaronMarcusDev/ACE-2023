@@ -14,7 +14,7 @@ cHead
 body
     centerDiv
         navbar
-            "a href='1.html'" tag
+            "a href='dev.html'" tag
                 "<- previous" b
             'a' cTag
 
@@ -33,6 +33,7 @@ body
         br
 
         "Martial arts" tb br
+
         "I have been practicing Jiu Jitsu for 6" tp
         "years and Wado-Ryu Karate for 2 years." tp
         "They are Japanese martial arts and I" tp
@@ -44,9 +45,13 @@ body
         "I don't plan to stop practicing them" tp
         "any time soon, I might even join more" tp
         "tournaments." tp
-
-        br "../images/karate.jpeg" img br
-        "Me recieving my first Karate belt." tp
+    // Image
+        br "../images/patrick.jpg" 
+        "<img class='img' src='" 
+        swap "'style='width:180px;height:240px;'>\n" concat concat
+        pushHTML
+        br
+        "A picture with my teacher, Patrick." tp
     cCenterDiv
 cBody
 
