@@ -39,13 +39,17 @@ body
         "more kinds of music from different" tp
         "cultures. I also want to know more" tp
         "about the Dutch music history." tp
-        "I know older bands like DoeMaar, " tp
+        "I know older bands like Doe Maar, " tp
         "Het Goede Doel and others, but I" tp
         "would like to know other bands and" tp
         "music that has had influence on the" tp
         "Netherlands or the rest of the world." tp
+        "A concert would also be fun." tp
         
-        br "../images/karate.jpeg" img
+        br "../images/doemaar.jpg"
+        "<img class='img' src='" 
+        swap "'style='width:280px;height:170px;'>\n" concat concat
+        pushHTML
         br "Doe Maar live in Amsterdam."
     cCenterDiv
 cBody

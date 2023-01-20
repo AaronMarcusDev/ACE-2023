@@ -26,7 +26,7 @@ body
 
             "|" b
             
-            "a href='end.html'" tag
+            "a href='wishlist.html'" tag
                 "next ->" b
             'a' cTag
         cNavbar
@@ -36,16 +36,16 @@ body
         "In the previous summer break, I went" tp
         "to Denmark with my Parents and my" tp
         "little sister. We were staying in a" tp
-        "camping on the island 'island'. We" tp
+        "camping on the island Møns Klint. We" tp
         "have visited lots of beautiful" tp
-        "environments, one that will remember" tp
-        "Is the 'forest' forest. We have also" tp
+        "environments. One that will remember" tp
+        "Is the Møns Klkint forest. We have also" tp
         "visited København (Copenhagen) and" tp
         "What I noticed was how many different" tp
         "cultures can be found on this city." tp
         "Poeple from all kinds of different" tp
         "backgrounds were running stores in" tp
-        "the streets of København, it was" tp
+        "the streets of København. It was" tp
         "really fun to see all of these cultures" tp
         "living together in one big city." tp
         "Everyone in Denmark also spoke perfect" tp

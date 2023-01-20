@@ -35,15 +35,15 @@ body
         "Software Development" tb br
 
         "This brings me to the next item." tp
-        "I work as a software developer for." tp
+        "I work as a software developer for" tp
         "Yibblo B.V. It has allowed me to gain" tp
         "a lot of experience in technology usage" tp
         "and programming/software development." tp
         "It has also given me chances to speak to" tp
         "members of big coorperations in India" tp
-        "and the U.S.A. Talking to them was pretty" tp
-        "thrilling, but I managed to do it" tp
-        "without problems, partially due to TTO." tp
+        "and the U.S.A. Talking to them was kind" tp
+        "of scary, but I managed to do it without" tp
+        " problems, partially due to TTO." tp
     // Image
         br "../images/yibblo.jpg" 
         "<img class='img' src='" 
